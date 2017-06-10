@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  font-family: 'Avenue', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Monofett', cursive;
+  font-size: 6em;
+  margin: 0;
+}
+.simon-buttons {
+  border: 10px solid #000;
+  cursor: pointer;
+  height: 300px;
+  margin: 0 -2px;
+  outline: none;
+  padding: 0;
+  width: 300px;
+}
+
+.modal-button {
+  background: none;
+  width: 300px;
+  height: auto;
+  border: 3px solid black;
+  color: black;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  font-family: 'Avenue', sans-serif;
+  font-weight: 300;
+}
+.modal-content, .modal-button {
+  font-size: 1.3em;
+}
+
+.modal-button:focus {
+  outline: none;
+  background-color: black;
+}
+
+.modal-button:hover {
+  background-color: black;
+  border: 3px solid black;
+  color: white;
+}
+
+
+#green {
+  border-top-left-radius: 100%;
+  background: rgba(108, 237, 97, 0.4);
+}
+#red {
+  border-top-right-radius: 100%;
+  background: rgba(249, 70, 57, 0.4);
+}
+#yellow {
+  border-bottom-left-radius: 100%;
+  background: rgba(255, 251, 66, 0.4);
+}
+#blue {
+  border-bottom-right-radius: 100%;
+  background: rgba(35, 130, 255, 0.4);
+}
+
+#red:hover, #red.light-on {
+  background: rgba(249, 70, 57, 1);
+}
+
+#green:hover, #green.light-on {
+  background: rgba(108, 237, 97, 1);
+}
+
+#yellow:hover, #yellow.light-on {
+  background: rgba(255, 251, 66, 1);
+}
+
+#blue:hover, #blue.light-on {
+  background: rgba(35, 130, 255, 1);
+}
+
+section {
+  margin: 0 auto;
+  position: relative;
+  width: 620px;
+}
+
+section.blocked {
+  pointer-events: none;
+}
+
+#counter {
+  background: #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial;
+  font-size: 100px;
+  line-height: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -108px;
+  position: absolute;
+  left: 51%;
+  text-align: center;
+  top: 50%;
+  width: 200px;
+}
